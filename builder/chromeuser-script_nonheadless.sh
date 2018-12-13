@@ -2,6 +2,7 @@
 
 # Run full chrome with a bunch of stuff turned off.
 nohup google-chrome \
+  --no-sandbox \
   --no-first-run \
   --disable-gpu \
   --disable-translate \
