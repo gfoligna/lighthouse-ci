@@ -14,4 +14,5 @@ nohup google-chrome \
   --safebrowsing-disable-auto-update \
   --disable-setuid-sandbox \
   --user-data-dir=${TMP_PROFILE_DIR} \
-  --remote-debugging-port=9222 'about:blank' &
+  --remote-debugging-port=9222 \
+  --remote-debugging-address=0.0.0.0 'about:blank' &
