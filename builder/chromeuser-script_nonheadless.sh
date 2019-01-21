@@ -13,5 +13,7 @@ nohup google-chrome \
   --metrics-recording-only \
   --safebrowsing-disable-auto-update \
   --disable-setuid-sandbox \
+  --proactive-tab-freeze-and-discard \
+  --ignore-certificate-errors \
   --user-data-dir=${TMP_PROFILE_DIR} \
   --remote-debugging-port=9222 'about:blank' &
